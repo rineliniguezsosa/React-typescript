@@ -1,5 +1,6 @@
 type Saludarprops = {
-    name:string
+    name:string,
+    message:number
 }
 
 export const Saludar = ({name}:Saludarprops) => {
