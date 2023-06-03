@@ -5,7 +5,7 @@ type Personprops = {
     }
 }
 
-export const Person = () => {
+export const Person = ({name}:Personprops) => {
   return (
     <>Person</>
   )
