@@ -12,7 +12,7 @@ function App() {
       <h1>React typescript</h1>
 
       <Saludar name="rinel" message={10}/>
-      <Person/>
+      <Person name={Hero}/>
     </>
   )
 }
