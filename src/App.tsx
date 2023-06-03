@@ -3,6 +3,10 @@ import { Saludar } from "./components/Saludar"
 
 
 function App() {
+  const Hero ={
+    firstname:'Bruce',
+    lastname:'wayne'
+  }
   return (
     <>
       <h1>React typescript</h1>
