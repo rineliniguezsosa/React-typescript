@@ -1,3 +1,4 @@
+import { Saludar } from "./components/Saludar"
 
 
 function App() {
