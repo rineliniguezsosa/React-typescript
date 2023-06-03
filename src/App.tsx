@@ -6,7 +6,7 @@ function App() {
     <>
       <h1>React typescript</h1>
 
-      <Saludar/>
+      <Saludar name="rinel"/>
     </>
   )
 }
