@@ -1,3 +1,6 @@
+type Saludarprops = {
+    name:string
+}
 
 export const Saludar = () => {
   return (
