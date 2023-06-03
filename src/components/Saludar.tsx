@@ -3,7 +3,7 @@ type Saludarprops = {
     message:number
 }
 
-export const Saludar = ({name}:Saludarprops) => {
+export const Saludar = ({name,message}:Saludarprops) => {
   return (
     <>
         <span>Bienvenido {name}</span>    
