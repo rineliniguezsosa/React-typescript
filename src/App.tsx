@@ -1,3 +1,4 @@
+import { Person } from "./components/Person"
 import { Saludar } from "./components/Saludar"
 
 
