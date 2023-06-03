@@ -4,6 +4,6 @@ type Saludarprops = {
 
 export const Saludar = ({name}:Saludarprops) => {
   return (
-    <div>Bienvenido</div>
+    <div>Bienvenido {name}</div>
   )
 }
