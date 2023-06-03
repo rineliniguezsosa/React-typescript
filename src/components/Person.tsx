@@ -7,6 +7,6 @@ type Personprops = {
 
 export const Person = ({name}:Personprops) => {
   return (
-    <>Person</>
+    <><span>{name.firstname},{name.lastname}</span></>
   )
 }
