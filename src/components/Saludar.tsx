@@ -6,7 +6,7 @@ type Saludarprops = {
 export const Saludar = ({name,message}:Saludarprops) => {
   return (
     <>
-        <span>Bienvenido {name}</span>    
+        <span>Bienvenido {name} tienes {message} mensajes!</span>    
     </>
   )
 }
