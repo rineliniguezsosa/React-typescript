@@ -1,4 +1,5 @@
 import { Person } from "./components/Person"
+import { PersonList } from "./components/PersonList"
 import { Saludar } from "./components/Saludar"
 
 
