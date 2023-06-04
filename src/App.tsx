@@ -33,6 +33,8 @@ function App() {
       <Saludar name="rinel" message={10}/>
       <br></br>
       <Person name={Hero}/>
+      <br></br>
+      <PersonList heroes={Herolist}/>
     </>
   )
 }
