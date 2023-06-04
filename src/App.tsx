@@ -7,6 +7,24 @@ function App() {
     firstname:'Bruce',
     lastname:'wayne'
   }
+
+  const Herolist = [
+    {
+      id:0,
+      first:'bruce',
+      last:'wayne',
+    },
+    {
+      id:1,
+      first:'clark',
+      last:'kent',
+    },
+    {
+      id:2,
+      first:'princess',
+      last:'diana'
+    }
+  ]
   return (
     <>
       <h1>React typescript</h1>
