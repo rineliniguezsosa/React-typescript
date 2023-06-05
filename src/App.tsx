@@ -9,6 +9,12 @@ function App() {
     lastname:'wayne'
   }
 
+export type HeroListype = {
+  id:number,
+  first:string,
+  last:string
+}
+
 const Herolist = [
     {
       id:0,
