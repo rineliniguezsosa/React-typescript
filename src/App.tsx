@@ -1,5 +1,5 @@
 import { Person } from "./components/Person"
-import { PersonList } from "./components/PersonList"
+import { PersonList } from './components/PersonList';
 import { Saludar } from "./components/Saludar"
 
 
@@ -9,7 +9,7 @@ function App() {
     lastname:'wayne'
   }
 
-  const Herolist = [
+const Herolist = [
     {
       id:0,
       first:'bruce',
