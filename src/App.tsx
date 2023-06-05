@@ -15,7 +15,7 @@ export type HeroListype = {
   last:string
 }
 
-const Herolist = [
+const Herolist:HeroListype[] = [
     {
       id:0,
       first:'bruce',
