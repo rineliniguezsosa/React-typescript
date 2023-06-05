@@ -40,7 +40,7 @@ const Herolist:HeroListype[] = [
       <br></br>
       <Person name={Hero}/>
       <br></br>
-      <PersonList heroes={Herolist}/>
+      <PersonList hero={Herolist}/>
     </>
   )
 }
