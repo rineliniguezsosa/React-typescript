@@ -1,6 +1,6 @@
 import { useState } from 'react';
 
-type user = {
+type User = {
     usuario:string,
     email:string
 }
