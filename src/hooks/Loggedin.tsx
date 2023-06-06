@@ -5,7 +5,9 @@ export const Loggedin = () => {
     const handlelogin = () =>{
         setIsloggin(true)
     }
-    const handlelogout = () =>{}
+    const handlelogout = () =>{
+        setIsloggin(false)
+    }
 
     const [isloggin, setIsloggin] = useState(false)
   return (
