@@ -6,6 +6,10 @@ type PersonListprops = {
 
 export const PersonList = ({hero}:PersonListprops) => {
   return (
-    <div>PersonList</div>
+    <div>
+      {hero.map(hero => (
+        <p key={hero.id}>{hero.first},{hero.last}</p>
+      ))}
+    </div>
   )
 }
