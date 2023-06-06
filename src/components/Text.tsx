@@ -6,6 +6,8 @@ type Textprops = {
 
 export const Text = (props:Textprops) => {
   return (
-    <div>Text</div>
+    <div>
+        <span style={props.styles}>Rinel iñiguez sosa</span>
+    </div>
   )
 }
