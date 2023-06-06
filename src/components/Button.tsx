@@ -1,3 +1,5 @@
+import React from 'react';
+
 type Buttonprops = {
     handleClick:(event: React.MouseEvent<HTMLBodyElement>) =>void //Event props
 }
