@@ -40,6 +40,8 @@ const Herolist:HeroListype[] = [
       <Person name={Hero}/>
       <br></br>
       <PersonList hero={Herolist}/>
+
+      <Button handleClick={(event)=> console.log('botón seleccionado')}></Button>
     </>
   )
 }
