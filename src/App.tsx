@@ -42,6 +42,7 @@ const Herolist:HeroListype[] = [
       <br></br>
       <PersonList hero={Herolist}/>
 
+      <Input></Input>
       <Button></Button>
     </>
   )
