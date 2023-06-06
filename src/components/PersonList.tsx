@@ -1,9 +1,7 @@
 import { HeroListype } from '../App';
 
 type PersonListprops = {
-    id:number,
-    first:string,
-    last:string
+    hero:HeroListype[]
 }
 
 export const PersonList = () => {
