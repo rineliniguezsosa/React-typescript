@@ -2,7 +2,9 @@ import { useState } from 'react';
 
 
 export const Loggedin = () => {
-    const handlelogin = () =>{}
+    const handlelogin = () =>{
+        setIsloggin(true)
+    }
     const handlelogout = () =>{}
 
     const [isloggin, setIsloggin] = useState(false)
