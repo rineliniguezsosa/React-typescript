@@ -1,6 +1,8 @@
 
 
 export const Loggedin = () => {
+    const handlelogin = () =>{}
+    const handlelogout = () =>{}
   return (
     <div>
         <button>Login</button>
