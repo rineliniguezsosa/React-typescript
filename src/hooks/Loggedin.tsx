@@ -2,6 +2,9 @@
 
 export const Loggedin = () => {
   return (
-    <div>Loggedin</div>
+    <div>
+        <button>Login</button>
+        <button>Logout</button>
+    </div>
   )
 }
