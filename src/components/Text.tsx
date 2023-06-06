@@ -4,7 +4,7 @@ type Textprops = {
     styles:React.CSSProperties //style props
 }
 
-export const Text = () => {
+export const Text = (props:Textprops) => {
   return (
     <div>Text</div>
   )
