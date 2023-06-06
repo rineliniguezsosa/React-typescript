@@ -2,6 +2,12 @@ import { useState } from 'react';
 
 
 export const User = () => {
+    const handlelogin = () =>{
+        
+    }
+    const handlelogout = () =>{
+        
+    }
   return (
     <div>
         <button onClick={handlelogin}>Login</button>
