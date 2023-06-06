@@ -5,8 +5,8 @@ export const Loggedin = () => {
     const handlelogout = () =>{}
   return (
     <div>
-        <button>Login</button>
-        <button>Logout</button>
+        <button onClick={handlelogin}>Login</button>
+        <button onClick={handlelogout}>Logout</button>
         <span>El usuario esta autenticado/logout</span>
     </div>
   )
