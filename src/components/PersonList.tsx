@@ -4,7 +4,7 @@ type PersonListprops = {
     hero:HeroListype[]
 }
 
-export const PersonList = () => {
+export const PersonList = ({hero}:PersonListprops) => {
   return (
     <div>PersonList</div>
   )
