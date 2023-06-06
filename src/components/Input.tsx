@@ -2,6 +2,8 @@
 
 export const Input = () => {
   return (
-    <div>Input</div>
+    <div>
+        <input type="text" onChange={handlechange}></input>
+    </div>
   )
 }
