@@ -1,5 +1,9 @@
 import { useState } from 'react';
 
+type user = {
+    usuario:string,
+    email:string
+}
 
 export const User = () => {
     const [user, setUser] = useState(null)
