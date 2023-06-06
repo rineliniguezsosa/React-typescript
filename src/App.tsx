@@ -2,19 +2,17 @@ import { Person } from "./components/Person"
 import { PersonList } from './components/PersonList';
 import { Saludar } from "./components/Saludar"
 
-
-function App() {
-  const Hero ={
-    firstname:'Bruce',
-    lastname:'wayne'
-  }
-
 export type HeroListype = {
   id:number,
   first:string,
   last:string
 }
 
+function App() {
+  const Hero ={
+    firstname:'Bruce',
+    lastname:'wayne'
+  }
 const Herolist:HeroListype[] = [
     {
       id:0,
