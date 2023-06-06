@@ -1,13 +1,12 @@
 import React from 'react';
 
-type Buttonprops = {
-    handleClick:(event: React.MouseEvent<HTMLBodyElement>) =>void //Event props
-}
-
-export const Button = (props:Buttonprops) => {
+export const Button = () => {
+  const handleClick = (event: React.MouseEvent<HTMLButtonElement>):void =>{
+    console.log(event) //Event Props
+  }
   return (
     <div>
-        <button onClick={event => props.handleClick}>Click me!</button>
+        <button onClick={handleClick}>Click me!</button>
     </div>
   )
 }
