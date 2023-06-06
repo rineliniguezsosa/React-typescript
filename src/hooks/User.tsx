@@ -5,7 +5,10 @@ export const User = () => {
     const [user, setUser] = useState(null)
 
     const handlelogin = () =>{
-        
+        setUser({
+            usuario:'rinel',
+            email:'rineliniguezsosa@gmail.com',
+        })
     }
     const handlelogout = () =>{
         setUser(null)
