@@ -41,7 +41,7 @@ const Herolist:HeroListype[] = [
       <br></br>
       <PersonList hero={Herolist}/>
 
-      <Button handleClick={(event)=> console.log('botón seleccionado')}></Button>
+      <Button></Button>
     </>
   )
 }
