@@ -1,3 +1,5 @@
+import { HeroListype } from '../App';
+
 type PersonListprops = {
     id:number,
     first:string,
