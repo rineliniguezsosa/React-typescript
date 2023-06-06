@@ -3,6 +3,7 @@ import { Input } from "./components/Input";
 import { Person } from "./components/Person"
 import { PersonList } from './components/PersonList';
 import { Saludar } from "./components/Saludar"
+import { Text } from "./components/Text";
 
 export type HeroListype = {
   id:number,
