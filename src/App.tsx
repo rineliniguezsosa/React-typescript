@@ -45,6 +45,8 @@ const Herolist:HeroListype[] = [
 
       <Input></Input>
       <Button></Button>
+
+      <Text styles={{color:'#213547',fontWeight:"bold"}}></Text>
     </>
   )
 }
