@@ -10,6 +10,7 @@ type Authuser = {
     email:string
 }
 export const UserProvider = ({children}:UserProviderprops) => {
+    const [user, setUser] = useState<Authuser | null>(null)
   return (
     <UserContext.Provider>
         {children}
