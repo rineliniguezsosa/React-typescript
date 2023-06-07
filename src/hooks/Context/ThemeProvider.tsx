@@ -1,5 +1,7 @@
+import { theme } from "./Theme"
 import { ThemeContext } from "./ThemeContext"
 import React from 'react'
+
 
 type ThemeProviderprops = {
     children:React.ReactNode
