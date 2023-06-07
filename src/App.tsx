@@ -56,6 +56,8 @@ const Herolist:HeroListype[] = [
       <User/>
       <br></br>
       <Counter/>
+      <br></br>
+      <Box/>
       </ThemeProvider>
     </>
   )
