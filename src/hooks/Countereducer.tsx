@@ -3,7 +3,7 @@ type Reducercount = {
 }
 
 type Reduceraction = {
-    type:string,
+    type:'incrementar' | 'decrementar', //Strict action types
     payload:number
 }
 export const Countereducer = (state:Reducercount,action:Reduceraction) =>{
