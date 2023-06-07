@@ -10,6 +10,8 @@ type Authuser = {
 }
 export const UserProvider = ({children}:UserProviderprops) => {
   return (
-    <UserContext.Provider>UserProvider</UserContext.Provider>
+    <UserContext.Provider>
+        {children}
+    </UserContext.Provider>
   )
 }
