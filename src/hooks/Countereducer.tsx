@@ -1,6 +1,11 @@
 type Reducercount = {
     count:number
 }
+
+type Reduceraction = {
+    type:string,
+    payload:number
+}
 export const Countereducer = (state:Reducercount,action) =>{
     switch (action.type) {
         case 'incrementar':
