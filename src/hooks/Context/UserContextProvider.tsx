@@ -9,7 +9,7 @@ type Authuser = {
     name:string,
     email:string
 }
-export const UserProvider = ({children}:UserProviderprops) => {
+export const UserContextProvider = ({children}:UserProviderprops) => {
     const [user, setUser] = useState<Authuser | null>(null)
   return (
     <UserContext.Provider>
