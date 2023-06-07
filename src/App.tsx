@@ -51,6 +51,8 @@ const Herolist:HeroListype[] = [
       <Text styles={{color:'#213547',fontWeight:"bold"}}></Text>
       <p>useState hook</p>
       <User/>
+      <br></br>
+      <Counter/>
     </>
   )
 }
