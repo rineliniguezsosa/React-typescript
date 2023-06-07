@@ -9,6 +9,7 @@ export const Counter = () => {
   return (
     <div>
       <span>Cuenta:{state.count}</span>
+      <button onClick={()=> dispatch({type:'incrementar',payload:10})}>Incrementar</button>
     </div>
   )
 }
