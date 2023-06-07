@@ -48,6 +48,8 @@ const Herolist:HeroListype[] = [
       <Button></Button>
 
       <Text styles={{color:'#213547',fontWeight:"bold"}}></Text>
+      <p>useState hook</p>
+      <User/>
     </>
   )
 }
