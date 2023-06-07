@@ -1,4 +1,6 @@
-
+type Reducercount = {
+    count:number
+}
 export const Countereducer = (state,action) =>{
     switch (action.type) {
         case 'incrementar':
