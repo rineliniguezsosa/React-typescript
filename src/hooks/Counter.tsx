@@ -1,10 +1,11 @@
 import { useReducer } from "react"
+import { Countereducer } from './Countereducer';
 
 const initialState = {
     count:0
 }
 export const Counter = () => {
-  const [state, dispatch] = useReducer(countreducer,initialState)
+  const [state, dispatch] = useReducer(Countereducer,initialState)
   return (
     <div>Counter</div>
   )
