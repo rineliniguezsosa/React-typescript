@@ -12,7 +12,7 @@ type Authuser = {
 export const UserContextProvider = ({children}:UserContextProviderprops) => {
     const [user, setUser] = useState<Authuser | null>(null)
   return (
-    <UserContext.Provider>
+    <UserContext.Provider value={{user,setUser}}>
         {children}
     </UserContext.Provider>
   )
