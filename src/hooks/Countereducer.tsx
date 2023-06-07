@@ -1,6 +1,6 @@
 
 export const Countereducer = (state,action) =>{
-    switch (action.payload) {
+    switch (action.type) {
         case 'incrementar':
             return { count:state.count+action.payload}
             break;
