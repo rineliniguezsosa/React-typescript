@@ -7,6 +7,8 @@ const initialState = {
 export const Counter = () => {
   const [state, dispatch] = useReducer(Countereducer,initialState)
   return (
-    <div>Counter</div>
+    <div>
+      <span>Cuenta:{state.count}</span>
+    </div>
   )
 }
