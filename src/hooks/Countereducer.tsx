@@ -1,4 +1,4 @@
 
-export const Countereducer = () =>{
-    
+export const Countereducer = (state,action) =>{
+
 }
