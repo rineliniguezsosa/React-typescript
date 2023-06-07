@@ -7,7 +7,7 @@ type ThemeProviderprops = {
 export const ThemeProvider = ({children}:ThemeProviderprops) => {
   return (
     <ThemeContext.Provider>
-        
+        {children}
     </ThemeContext.Provider>
   )
 }
