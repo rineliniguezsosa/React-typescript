@@ -4,6 +4,7 @@ import { Person } from "./components/Person"
 import { PersonList } from './components/PersonList';
 import { Saludar } from "./components/Saludar"
 import { Text } from "./components/Text";
+import { Counter } from "./hooks/Counter";
 import { User } from "./hooks/User";
 
 export type HeroListype = {
