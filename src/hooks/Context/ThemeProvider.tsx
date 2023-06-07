@@ -4,7 +4,7 @@ import React from 'react'
 type ThemeProviderprops = {
     children:React.ReactNode
 }
-export const ThemeProvider = () => {
+export const ThemeProvider = ({children}:ThemeProviderprops) => {
   return (
     <div>ThemeProvider</div>
   )
