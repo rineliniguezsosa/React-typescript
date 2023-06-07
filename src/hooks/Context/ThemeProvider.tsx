@@ -6,6 +6,8 @@ type ThemeProviderprops = {
 }
 export const ThemeProvider = ({children}:ThemeProviderprops) => {
   return (
-    <div>ThemeProvider</div>
+    <ThemeContext.Provider>
+        
+    </ThemeContext.Provider>
   )
 }
