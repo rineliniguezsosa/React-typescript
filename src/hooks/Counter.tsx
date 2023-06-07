@@ -10,6 +10,7 @@ export const Counter = () => {
     <div>
       <span>Cuenta:{state.count}</span>
       <button onClick={()=> dispatch({type:'incrementar',payload:10})}>Incrementar</button>
+      <button onClick={()=> dispatch({type:'decrementar',payload:10})}>Decrementar</button>
     </div>
   )
 }
