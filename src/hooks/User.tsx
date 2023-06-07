@@ -1,12 +1,12 @@
 import { useState } from 'react';
 
-type User = {
+type Userauth = {
     usuario:string,
     email:string
 }
 
 export const User = () => {
-    const [user, setUser] = useState<User | null>(null)
+    const [user, setUser] = useState<Userauth | null>(null)
 
     const handlelogin = () =>{
         setUser({
