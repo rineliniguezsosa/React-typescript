@@ -5,12 +5,11 @@ import { useState } from 'react';
 type UserContextProviderprops = {
     children:React.ReactNode
 }
-type Authuser = {
+
+export type Authuser = {
     name:string,
     email:string
 }
-
-
 
 export const UserContextProvider = ({children}:UserContextProviderprops) => {
     const [user, setUser] = useState<Authuser | null>(null)
