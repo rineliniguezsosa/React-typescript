@@ -2,6 +2,7 @@ import { useContext} from 'react'
 import { UserContext } from './UserContext'
 
 export const User = () => {
+    const usercontext = useContext(UserContext)
     const handlelogin = () =>{
         
     }
