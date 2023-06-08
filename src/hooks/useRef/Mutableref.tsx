@@ -3,7 +3,7 @@ import { useState, useEffect, useRef } from 'react';
 
 export const Mutableref = () => {
     const [timer, setTimer] = useState(0)
-    const intervalRef = useRef(null)
+    const intervalRef = useRef<number | null>(null)
 
     const stoptimer = () =>{
        if(intervalRef.current) window.clearInterval(intervalRef.current)
