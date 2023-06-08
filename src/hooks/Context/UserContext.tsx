@@ -6,4 +6,4 @@ type UserContexttype = {
     setUser:React.Dispatch<React.SetStateAction<Authuser | null>> //tipando la accion
 }
 
-export const UserContext = createContext<UserContexttype | null>(null)
+export const UserContext = createContext<UserContexttype | null>(null) //tipando la devolucion del value
