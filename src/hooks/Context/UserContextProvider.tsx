@@ -10,10 +10,7 @@ type Authuser = {
     email:string
 }
 
-type UserContexttype = {
-  user:Authuser | null,
-  setUser:React.Dispatch<React.SetStateAction<Authuser | null>> //tipando la accion
-}
+
 
 export const UserContextProvider = ({children}:UserContextProviderprops) => {
     const [user, setUser] = useState<Authuser | null>(null)
