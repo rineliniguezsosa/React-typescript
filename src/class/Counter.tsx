@@ -1,5 +1,8 @@
 import { Component } from 'react'
 
+type Counterprops = {
+    count:number
+}
 export class Counter extends Component {
     state = {
         count:0
