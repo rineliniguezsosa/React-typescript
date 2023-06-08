@@ -20,7 +20,7 @@ export const User = () => {
     <div>
         <button onClick={handlelogin}>Login</button>
         <button onClick={handlelogout}>Logout</button>
-        <span>El usuario es</span>
+        <span>El usuario es {usercontext?.user?.name}</span>
     </div>
   )
 }
