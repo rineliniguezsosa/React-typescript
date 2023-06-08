@@ -8,7 +8,7 @@ import { Box } from "./hooks/Context/Box";
 // import { ThemeProvider } from "./hooks/Context/ThemeProvider";
 import { UserContextProvider } from "./hooks/Context/UserContextProvider";
 import { User } from "./hooks/Context/User";
-import { Counter } from "./hooks/useReducer/Counter";
+// import { Counter } from "./hooks/useReducer/Counter";
 import { Domref } from "./hooks/useRef/Domref";
 import { Mutableref } from "./hooks/useRef/Mutableref";
 // import { User } from "./hooks/User";
@@ -59,7 +59,7 @@ const Herolist:HeroListype[] = [
       <p>useState hook</p>
       {/* <User/> */}
       <br></br>
-      <Counter/>
+      {/* <Counter/> */}
       <br></br>
       <Box/>
       <br></br>
