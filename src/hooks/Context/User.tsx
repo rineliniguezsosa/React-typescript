@@ -12,7 +12,9 @@ export const User = () => {
         }
     }
     const handlelogout = () =>{
-        
+      if(usercontext){
+        usercontext.setUser(null)
+      }
     }
   return (
     <div>
