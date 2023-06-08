@@ -6,6 +6,7 @@ import { Saludar } from "./components/Saludar"
 import { Text } from "./components/Text";
 import { Box } from "./hooks/Context/Box";
 import { ThemeProvider } from "./hooks/Context/ThemeProvider";
+import { UserContextProvider } from "./hooks/Context/UserContextProvider";
 import { Counter } from "./hooks/Counter";
 import { User } from "./hooks/User";
 
