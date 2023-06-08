@@ -6,8 +6,13 @@ export const Mutableref = () => {
     const intervalRef = useRef(null)
 
     const stoptimer = () =>{
-        
+
     }
+
+    useEffect(() => {
+      
+    }, [])
+    
   return (
     <div>
         Timer:{timer}
