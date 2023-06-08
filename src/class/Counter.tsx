@@ -3,6 +3,10 @@ import { Component } from 'react'
 type Counterprops = {
     count:number
 }
+
+type Countermessage = {
+    message:string
+}
 export class Counter extends Component<Counterprops> {
     state = {
         count:0
