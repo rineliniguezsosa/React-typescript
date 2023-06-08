@@ -41,7 +41,7 @@ const Herolist:HeroListype[] = [
   ]
   return (
     <>
-      <ThemeProvider>
+      <UserContextProvider>
       <h1>React typescript</h1>
 
       <Saludar name="rinel" message={10}/>
@@ -60,7 +60,7 @@ const Herolist:HeroListype[] = [
       <Counter/>
       <br></br>
       <Box/>
-      </ThemeProvider>
+      </UserContextProvider>
     </>
   )
 }
