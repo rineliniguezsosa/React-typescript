@@ -1,13 +1,13 @@
 import { Component } from 'react'
 
-type Counterprops = {
+type CounterState = {
     count:number
 }
 
 type Countermessage = {
     message:string
 }
-export class Counter extends Component<Countermessage,Counterprops> {
+export class Counter extends Component<Countermessage,CounterState> {
     state = {
         count:0
     }
