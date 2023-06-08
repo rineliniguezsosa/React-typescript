@@ -8,7 +8,7 @@ import { Box } from "./hooks/Context/Box";
 // import { ThemeProvider } from "./hooks/Context/ThemeProvider";
 import { UserContextProvider } from "./hooks/Context/UserContextProvider";
 import { User } from "./hooks/Context/User";
-import { Counter } from "./hooks/Counter";
+import { Counter } from "./hooks/useReducer/Counter";
 // import { User } from "./hooks/User";
 
 export type HeroListype = {
