@@ -5,7 +5,7 @@ import { PersonList } from './components/PersonList';
 import { Saludar } from "./components/Saludar"
 import { Text } from "./components/Text";
 import { Box } from "./hooks/Context/Box";
-import { ThemeProvider } from "./hooks/Context/ThemeProvider";
+// import { ThemeProvider } from "./hooks/Context/ThemeProvider";
 import { UserContextProvider } from "./hooks/Context/UserContextProvider";
 import { User } from "./hooks/Context/User";
 import { Counter } from "./hooks/Counter";
