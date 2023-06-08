@@ -6,7 +6,7 @@ type Userauth = {
 }
 
 export const User = () => {
-    const [user, setUser] = useState<Userauth | null>(null)
+    const [user, setUser] = useState<Userauth | null>(null) //future value
 
     const handlelogin = () =>{
         setUser({
