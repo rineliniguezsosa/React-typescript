@@ -7,6 +7,7 @@ export const Mutableref = () => {
   return (
     <div>
         Timer:{timer}
+        <button onClick={stoptimer}>Stop timer</button>
     </div>
   )
 }
