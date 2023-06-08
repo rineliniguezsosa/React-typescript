@@ -13,6 +13,9 @@ export const Mutableref = () => {
       intervalRef.current = window.setInterval(()=>{
         setTimer((timer)=> timer+1)
       },1000)
+      return () =>{
+        stoptimer()
+      }
     }, [])
     
   return (
