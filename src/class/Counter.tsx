@@ -7,7 +7,7 @@ type Counterprops = {
 type Countermessage = {
     message:string
 }
-export class Counter extends Component<Counterprops | Countermessage> {
+export class Counter extends Component<Countermessage,Counterprops> {
     state = {
         count:0
     }
