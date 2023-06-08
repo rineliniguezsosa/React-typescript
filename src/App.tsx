@@ -60,7 +60,7 @@ const Herolist:HeroListype[] = [
       <p>useState hook</p>
       {/* <User/> */}
       <br></br>
-      {/* <Counter/> */}
+      <Counter/>
       <br></br>
       <Box/>
       <br></br>
