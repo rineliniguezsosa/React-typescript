@@ -4,7 +4,12 @@ import { UserContext } from './UserContext'
 export const User = () => {
     const usercontext = useContext(UserContext)
     const handlelogin = () =>{
-        
+        if(usercontext){
+          usercontext.setUser({
+            name:'Rinel',
+            email:'rineliniguezsosa@gmail.com'
+          })
+        }
     }
     const handlelogout = () =>{
         
