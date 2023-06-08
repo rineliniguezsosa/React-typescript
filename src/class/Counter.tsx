@@ -6,7 +6,10 @@ export class Counter extends Component {
     }
   render() {
     return (
-      <div>Counter</div>
+      <div>
+        Counter
+        <button onClick={this.increment}>Incrementar</button>
+      </div>
     )
   }
 }
