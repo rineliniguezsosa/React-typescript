@@ -11,6 +11,7 @@ import { User } from "./hooks/Context/User";
 // import { Counter } from "./hooks/useReducer/Counter";
 import { Domref } from "./hooks/useRef/Domref";
 import { Mutableref } from "./hooks/useRef/Mutableref";
+import Counter from "./class/Counter";
 // import { User } from "./hooks/User";
 
 export type HeroListype = {
