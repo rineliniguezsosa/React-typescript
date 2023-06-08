@@ -2,7 +2,7 @@ import { useRef,useEffect } from "react"
 
 
 export const Domref = () => {
-    const domref = useRef(null)
+    const domref = useRef<HTMLInputElement>(null!)//operador de aserción no nulo
 
     useEffect(() => {
       domref.current.focus()
