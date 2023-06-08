@@ -4,6 +4,8 @@ import { useRef,useEffect } from "react"
 export const Domref = () => {
     const domref = useRef(null)
   return (
-    <div>Domref</div>
+    <div>
+        <input type="text" ref={domref} />
+    </div>
   )
 }
