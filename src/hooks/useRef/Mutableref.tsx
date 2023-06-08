@@ -11,7 +11,7 @@ export const Mutableref = () => {
 
     useEffect(() => {
       intervalRef.current = window.setInterval(()=>{
-
+        setTimer((timer)=> timer+1)
       },1000)
     }, [])
     
