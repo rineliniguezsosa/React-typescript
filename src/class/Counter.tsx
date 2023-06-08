@@ -21,6 +21,7 @@ export class Counter extends Component<Counterprops | Countermessage> {
         Counter
         <button onClick={this.increment}>Incrementar</button>
         {this.state.count}
+        <p>{this.props.message}</p>
       </div>
     )
   }
