@@ -8,7 +8,7 @@ import { Box } from "./hooks/Context/Box";
 import { ThemeProvider } from "./hooks/Context/ThemeProvider";
 import { UserContextProvider } from "./hooks/Context/UserContextProvider";
 import { Counter } from "./hooks/Counter";
-import { User } from "./hooks/User";
+// import { User } from "./hooks/User";
 
 export type HeroListype = {
   id:number,
@@ -54,7 +54,7 @@ const Herolist:HeroListype[] = [
 
       <Text styles={{color:'#213547',fontWeight:"bold"}}></Text>
       <p>useState hook</p>
-      <User/>
+      {/* <User/> */}
       <br></br>
       <Counter/>
       <br></br>
