@@ -10,7 +10,9 @@ export const Mutableref = () => {
     }
 
     useEffect(() => {
-      
+      intervalRef.current = window.setInterval(()=>{
+
+      },1000)
     }, [])
     
   return (
