@@ -64,6 +64,8 @@ const Herolist:HeroListype[] = [
       <br></br>
       <User/>
       </UserContextProvider>
+      <br></br>
+      <Domref/>
     </>
   )
 }
