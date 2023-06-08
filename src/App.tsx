@@ -60,6 +60,8 @@ const Herolist:HeroListype[] = [
       <Counter/>
       <br></br>
       <Box/>
+      <br></br>
+      <User/>
       </UserContextProvider>
     </>
   )
