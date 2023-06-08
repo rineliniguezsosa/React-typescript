@@ -60,7 +60,7 @@ const Herolist:HeroListype[] = [
       <p>useState hook</p>
       {/* <User/> */}
       <br></br>
-      <Counter/>
+      <Counter message="Aprendiendo typescript"/>
       <br></br>
       <Box/>
       <br></br>
